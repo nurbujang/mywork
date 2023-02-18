@@ -51,6 +51,6 @@ print(f"var is {var}") # output will be True, because 2 is not equal to 4
 # Then you would want to put in var1 and var 2
 grade=40
 # is it a valid grade?
-invalid=(grade<0) or (grade>100) # False or True, which will come out as True. it is invalid
+invalid=(grade<0) or (grade>100) # False or True, which will come out as False. it is invalid
 print(f"invalid is {invalid}")
 # output is False
