@@ -43,7 +43,7 @@ while x is True:
     number=int(input("enter an integer:"))
 
     if number==-1:
-        x=False
+        x=False   # Once it's false, the program quits. Or you can use break to quit the program
     elif (number % 2) == 0:
         print(f"{number} is an even number")
     else:
