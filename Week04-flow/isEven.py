@@ -25,7 +25,7 @@
 #         print(f"{number} is an odd number")
 #     break
 
-#Method 2
+# #Method 2
 # while True:
 #     number=int(input("enter an integer:"))
 

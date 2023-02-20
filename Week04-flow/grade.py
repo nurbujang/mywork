@@ -33,7 +33,7 @@
 
 # In practice the percentages are rounded ie 69.5 gets rounded to 70 so is equal to a Distinction.
 # How would you modify the program in 1 to deal with this? I see two ways.
-# Method 1
+# Method 1: omitting the rounding line
 #percentage=float(input("Enter the percentage: "))
 
 # Be careful with the or operator boolean algebra can be tricky
@@ -53,8 +53,6 @@
     #print ("Distinction")
 
 
-# In practice the percentages are rounded ie 69.5 gets rounded to 70 so is equal to a Distinction.
-# How would you modify the program in 1 to deal with this? I see two ways.
 # Method 2?????????
 percentage = float(input("Enter the percentage: "))
 #print(percentage) # this is for dubugging
