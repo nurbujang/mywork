@@ -16,20 +16,20 @@
 
 # COUNTER COUNTROLLED LOOPS
 # first, initialize your variable
-#count=0
-#while (count<10):
-    #print("count is ",count) # when you put comma inside print,it will print each of these variable, "" as a string, and the other as integer
-    #count=count+1 # Always make sure you change your conditions-----IMPORTANT IN WHILE LOOPS!!!
+# count=0
+# while (count<10):
+#     print("count is ",count) # when you put comma inside print,it will print each of these variable, "" as a string, and the other as integer
+#     count=count+1 # Always make sure you change your conditions-----IMPORTANT IN WHILE LOOPS!!!
 
-#   Outside the While loop:
-#print("at the end of count is ",count)
+#   # Outside the While loop:
+# print("at the end of count is ",count)
 
 # if you want to count backwards
-#count=10
-#while count>=0:
-    #print("countdown ",count)
-    #count-=1 # will minus 1 every step, same as count=count-1
-#print("blast off")
+# count=10
+# while count>=0:
+#     print("countdown ",count)
+#     count-=1 # will minus 1 every step, same as count=count-1
+# print("blast off")
 
 # SENTINEL CONTROLLED LOOPS - you do something until some event happens
 val=input("type something (q to quit):")
