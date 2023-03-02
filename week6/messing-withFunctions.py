@@ -8,7 +8,7 @@
 #print ("{} {}--{}".format(x, y, z))
 
 def topower(number, power=3):
-    #print(number)
+    #print(number) # not needed, just use as debugger
     return (number ** power)
 
 #ans = topower(23)
