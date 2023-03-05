@@ -1,5 +1,4 @@
 # extra2.py
-# 
 # Author: Nur Bujang
 
 # a different way or dealing with the users choice

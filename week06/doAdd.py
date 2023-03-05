@@ -1,5 +1,6 @@
 # doAdd.py
-# 4. So we need to think what we want this to do.
+# 4. We can now write the function doAdd(students).
+# So we need to think what we want this to do.
 # a. Read in the student’s name (that is straightforward)
 # b. Read in the module names and grades (this is a bit more complicated
 # so let’s put this in separate function and think about it by itself, see 5. below)
@@ -10,7 +11,7 @@
 # I am not thinking about the menu at the moment, I just what to see if I can read in a student
 # Author: Nur Bujang
 
-
+students= [] # better to have this line
 def readModules():
     return []
 
