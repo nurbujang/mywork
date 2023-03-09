@@ -1,5 +1,5 @@
 # testing reading a csv
-# author Andrew Beatty
+# author Nur Bujang
 
 import csv
 
@@ -14,7 +14,8 @@ with open(FILENAME, "rt") as csvFile:
             continue
         print (line[2])
 
-
+# testing the right code to get email domains
+# mess around to find the right code here
 email = "qwerty@QWERT.ie"
 print (email.find('@'))
 start = email.find('@')

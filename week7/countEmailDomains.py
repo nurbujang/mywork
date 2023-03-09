@@ -1,6 +1,6 @@
 # this script will count each email domain from the 
 # empoyee.csv file
-# Author: Andrew Beatty
+# Author: Nur Bujang
 #
 
 import csv
@@ -10,7 +10,7 @@ domainCount = {}
 with open(FILENAME, "rt") as employeeFile:
     csvReader = csv.reader(employeeFile, delimiter = ',')
     firstLine = True
-    count = 0
+    count = 0 # to count the lines
     for line in csvReader:
         if firstLine:
             firstLine = False
@@ -26,3 +26,4 @@ with open(FILENAME, "rt") as employeeFile:
 
 for key, value in domainCount.items():
     print(key, "\t\t", value)
+
