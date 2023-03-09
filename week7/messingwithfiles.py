@@ -1,7 +1,7 @@
 # messing with files 
 # Author: Nur Bujang
 
-FILENAME= "data.txt"
+FILENAME= "data.txt" # put FILENAME in caps bc u want it to be constant, they dont change
 '''
 with open(FILENAME, 'rt') as f:
     for data in f:
