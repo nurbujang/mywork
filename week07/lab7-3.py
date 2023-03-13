@@ -6,3 +6,4 @@ def writeDict(obj):
         json.dump(obj,f)
 #test the function
 writeDict(sample)
+
