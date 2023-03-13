@@ -14,10 +14,19 @@ def doAdd(students):
 def doView(students):
     # you have code here to view
     print("in viewing")
+def saveDict(students):
+    print("save dict")
 def doSave(students):
-    #you will put the call to save dict here
+    saveDict(students)#you will put the call to save dict here
     print("in save")
-
+def writeDict(students):
+    print("students saved")
+def readDict(students):
+    print("read dict")
+def doLoad():
+    return readDict(students)
+# in the menu
+students = doLoad()
 #main program
 choice = displayMenu()
 while(choice != 'q'):

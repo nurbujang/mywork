@@ -14,9 +14,13 @@ def doAdd(students):
 def doView(students):
     # you have code here to view
     print("in viewing")
+def saveDict(students):
+    print("save dict")
 def doSave(students):
-    #you will put the call to save dict here
+    saveDict(students)#you will put the call to save dict here
     print("in save")
+def writeDict(students):
+    print("students saved")
 
 #main program
 choice = displayMenu()
