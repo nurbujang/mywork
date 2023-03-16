@@ -39,4 +39,4 @@ plt.xlabel("Salaries")
 plt.ylabel("age")
 plt.legend()
 plt.show() # see how the axis have changed
-#plt.savefig('prettier-plot.png')
+plt.savefig('prettier-plot.png')
