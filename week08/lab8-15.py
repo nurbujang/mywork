@@ -15,6 +15,7 @@ salaries = np.random.normal(loc=21, scale=30, size=1000)
 
 #create normal distribution curve
 sns.displot(salaries, kde=True)
+
 plt.show()
 '''
 #plt.show() # if you do this the proram will halt here until the plot is closed
