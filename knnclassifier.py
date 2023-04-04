@@ -1,12 +1,17 @@
 # trimmed from project
 
+import pandas as pd # for data loading from other sources and processing
+import numpy as np # for computational operations
+import matplotlib.pyplot as plt # for data visualization
+import seaborn as sns # for data visualization
 from matplotlib.colors import ListedColormap
 from sklearn import neighbors, datasets
 from sklearn.inspection import DecisionBoundaryDisplay
 
 ir = datasets.load_iris() # load dataset from sklearn
 k = 7 # decide on the number of neighbor (k)
-X = ir.data[:,:2] # use the first 2 columns (sepal length and sepal width) as a 2 dimensional dataset
+#X = ir.data[:,:2] # use the first 2 columns (sepal length and sepal width) as a 2 dimensional dataset
+X = ir.data[3:,:5] # use the first 2 columns (sepal length and sepal width) as a 2 dimensional dataset
 y = ir.target
 targets = ir.target_names# define target name (species name)
 print(targets) # print target name (species name)
